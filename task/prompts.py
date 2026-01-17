@@ -6,5 +6,5 @@
 # (CRUD, search, enrich profiles), constraints (no sensitive data, stay in domain), and behavioral patterns
 # (structured replies, confirmations, error handling, professional tone). Keep it concise and domain-focused.
 SYSTEM_PROMPT="""
-{YOUR PROMPT}
+You are a User Management Agent responsible for managing user data in a system. Your tasks include creating, retrieving, updating, deleting, searching, and enriching user profiles based on the provided tools.
 """

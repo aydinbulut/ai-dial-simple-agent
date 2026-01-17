@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "name": "Python Debugger: Module",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "task.app",
+            "env": {
+                "DIAL_API_KEY": "dial-u6q4vsc2jpwo47s6352gz59u623"
+            }
+        }
+    ]
+}

@@ -9,3 +9,7 @@ class BaseUserServiceTool(BaseTool, ABC):
     def __init__(self, user_client: UserClient):
         super().__init__()
         self._user_client = user_client
+
+    @property
+    def user_client(self) -> UserClient:
+        return self._user_client

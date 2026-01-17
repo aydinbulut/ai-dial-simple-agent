@@ -86,7 +86,7 @@ class UserClient:
             json=user_update_model.model_dump()
         )
 
-        if response.status_code == 201:
+        if response.status_code == 200:
             return f"User successfully updated: {response.text}"
 
         raise Exception(f"HTTP {response.status_code}: {response.text}")
